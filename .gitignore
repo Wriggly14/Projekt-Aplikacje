@@ -1,7 +1,15 @@
-/node_modules
-/vendor
-/env.php
-/angular/dist
-git add .
-git commit -m "Init project structure"
-git push -u origin main
+# Node modules
+/frontend/node_modules/
+
+# Angular build
+/frontend/dist/
+
+# Composer vendor
+/backend/vendor/
+
+# Laravel env
+/backend/.env
+
+# IDE, OS files
+.idea/
+*.log
